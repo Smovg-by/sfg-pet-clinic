@@ -1,5 +1,14 @@
-smvg\spring\sfgpetclinic\model\Person.class
-smvg\spring\sfgpetclinic\model\Owner.class
+smvg\spring\sfgpetclinic\services\OwnerService.class
 smvg\spring\sfgpetclinic\model\PetType.class
+smvg\spring\sfgpetclinic\services\map\PetServiceMap.class
+smvg\spring\sfgpetclinic\services\VetService.class
+smvg\spring\sfgpetclinic\model\BaseEntity.class
+smvg\spring\sfgpetclinic\model\Owner.class
+smvg\spring\sfgpetclinic\services\PetService.class
+smvg\spring\sfgpetclinic\services\map\AbstractMapService.class
+smvg\spring\sfgpetclinic\model\Person.class
+smvg\spring\sfgpetclinic\services\map\OwnerServiceMap.class
+smvg\spring\sfgpetclinic\services\map\VetServiceMap.class
+smvg\spring\sfgpetclinic\services\CrudService.class
 smvg\spring\sfgpetclinic\model\Pet.class
 smvg\spring\sfgpetclinic\model\Vet.class

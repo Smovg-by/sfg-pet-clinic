@@ -1,1 +1,5 @@
 smvg\spring\sfgpetclinic\SfgPetClinicApplication.class
+smvg\spring\sfgpetclinic\controllers\IndexController.class
+smvg\spring\sfgpetclinic\controllers\VetController.class
+smvg\spring\sfgpetclinic\controllers\OwnerController.class
+smvg\spring\sfgpetclinic\bootstrap\DataLoader.class
