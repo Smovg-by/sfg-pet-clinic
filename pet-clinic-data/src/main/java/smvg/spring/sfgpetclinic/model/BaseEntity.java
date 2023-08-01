@@ -7,7 +7,8 @@ import jakarta.persistence.MappedSuperclass;
 
 import java.io.Serializable;
 
-@MappedSuperclass //так мы говорим Спрингу, что для этого класса не надо создавать таблицу, т.к. от этого класса мы будем наследовать остальные
+@MappedSuperclass
+//так мы говорим Спрингу, что для этого класса не надо создавать таблицу, т.к. от этого класса мы будем наследовать остальные
 public class BaseEntity implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

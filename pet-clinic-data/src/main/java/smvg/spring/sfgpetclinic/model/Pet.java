@@ -11,13 +11,13 @@ public class Pet extends BaseEntity {
     @Column(name = "name")
     private String name;
     @ManyToOne
-    @JoinColumn(name="type_id")
+    @JoinColumn(name = "type_id")
     private PetType petType;
     @ManyToOne
     //Если ManyToMany - то пишем JoinTable, если manyToOne - то JoinColumn
-    @JoinColumn(name="owner_id")
+    @JoinColumn(name = "owner_id")
     private Owner owner;
-    @Column(name="birth_date")
+    @Column(name = "birth_date")
     private LocalDate birthDate;
 
     public String getName() {

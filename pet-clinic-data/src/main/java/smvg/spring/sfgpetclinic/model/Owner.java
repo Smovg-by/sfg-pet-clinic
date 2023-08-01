@@ -9,17 +9,18 @@ import java.util.Set;
 @Table(name = "owners")
 public class Owner extends Person {
 
-    @Column(name="address")
+    @Column(name = "address")
     private String address;
 
-    @Column(name="city")
+    @Column(name = "city")
     private String city;
 
-    @Column(name="telephone")
+    @Column(name = "telephone")
     private String telephone;
 
     //У одного Owner может быть несоклько Pets
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner") //если у меня есть pets и я удалю owner, то pets также удалятся
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner")
+    //если у меня есть pets и я удалю owner, то pets также удалятся
     private Set<Pet> pets = new HashSet<>();
 
     public String getAddress() {
